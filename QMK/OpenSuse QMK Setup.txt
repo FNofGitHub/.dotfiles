@@ -1,0 +1,95 @@
+Dependencies needed:
+    python3
+    git
+    make
+    cross harm-none-gcc12
+    cross-arm-none-newlib-devel
+    cross-avr-gcc7
+    avrdude
+    avr-libc
+    dfu-programmer
+    dfu-util
+
+
+
+python3 -mm pip install --user qmk
+python3 -m pip install --user qmk
+
+python3 -h
+python3-pip -h
+pip -h
+
+python3  pip install --user qmk
+python3 -m pip install --user qmk
+python3 -m pip install qmk
+python3 -m pip --user install qmk
+python3 -m pip install --user qmk
+python3 -m pipx install --user qmk
+python3 -m pipx install qmk
+
+qmk setup
+git clone --recurse-submodules https://github.com/FNofGitHub/qmk_firmware.git
+
+qmk doctor
+sudo cp /home/fn/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
+qmk doctor
+qmk new-keymap -km wideortho -kb preonic/rev3_drop
+qmk compile -kb preonic/rev3_drop -km wideortho
+path
+what path
+qmk compile -kb preonic/rev3_drop -km wideortho
+qmk doctor
+qmk compile -kb preonic/rev3_drop -km wideortho
+ls
+cd qmk_firmware
+ls
+qmk compile -kb preonic/rev3_drop -km wideortho
+cd ..
+ls
+cd ~/.local/pipx/venvs/qmk
+ls
+qmk compile -kb preonic/rev3_drop -km wideortho
+qmk -v compile -kb preonic/rev3_drop -km wideortho
+qmk clean
+exit
+qmk -v compile -kb preonic/rev3_drop -km wideortho
+qmk flash -kb preonic/rev3_drop -km wideortho
+
+
+qmk clone https://github.com/FNofGitHub/qmk_firmware.git
+qmk clone -recurse-submodules https://github.com/FNofGitHub/qmk_firmware.git
+qmk clone --recurse-submodules https://github.com/FNofGitHub/qmk_firmware.git
+qmk clone --recurse-submodules FNofGitHub/qmk_firmware.git
+qmk clone FNofGitHub/qmk_firmware.git
+qmk doctor
+qmk new-keymap -km wideortho -kb preonic/rev3_drop
+qmk compile -kb preonic/rev3_drop -km wideortho
+qmk setup
+qmk -h
+qmk env
+qmk cd
+qmk compile -kb preonic/rev3_drop -km wideortho
+qmk git sub-module
+qmk git sub-module compile
+qmk doctor
+ls -h
+la
+cd .local
+la
+cd pipx
+la
+cd venvs
+la
+cd qmk
+la
+cd lib64
+la
+cd python3.11
+la
+cd site-packages
+la
+cd attr
+la
+qmk compile -kb preonic/rev3_drop -km wideortho
+qmk flash -kb preonic/rev3_drop -km wideortho
+cd
